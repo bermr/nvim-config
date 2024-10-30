@@ -9,8 +9,7 @@ return {
       sources = {
         null_ls.builtins.formatting.stylua,
         require("none-ls.diagnostics.eslint_d"),
-        null_ls.builtins.formatting.prettier,
-        null_ls.builtins.formatting.json_tool
+        null_ls.builtins.formatting.prettier
       }
     })
 
